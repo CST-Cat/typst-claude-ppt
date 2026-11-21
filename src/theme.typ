@@ -12,9 +12,9 @@
 )
 
 #let fonts = (
-  serif: ((name: "Anthropic Serif Web Text", covers: "latin-in-cjk"), "Source Han Serif SC"),
-  sans: ((name: "Anthropic Sans Web Text", covers: "latin-in-cjk"), "Source Han Sans SC"),
-  mono: ((name: "Anthropic Mono", covers: "latin-in-cjk"), "Source Han Serif SC"),
+  serif: ((name: "Anthropic Serif Web Text", covers: "latin-in-cjk"), "STKaiti"),
+  sans: ((name: "Anthropic Sans Web Text", covers: "latin-in-cjk"), "STKaiti"),
+  mono: ((name: "Anthropic Mono", covers: "latin-in-cjk"), "STKaiti"),
 )
 
 #let dimensions = (
@@ -37,7 +37,7 @@
   set par(leading: 0.65em, spacing: 1em, justify: false)
   show heading: set text(weight: "regular")
   set math.equation(numbering: none)
-  show math.equation: set text(font: ("Libertinus Math", "Source Han Serif SC"))
+  show math.equation: set text(font: ("Libertinus Math", "STKaiti"))
 
   set raw(theme: "../assets/claude.tmTheme")
   set list(
