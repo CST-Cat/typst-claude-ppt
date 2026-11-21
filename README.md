@@ -29,14 +29,14 @@ typship download https://github.com/yousa-mirage/typst-claude-ppt
 #import "@local/typst-claude-ppt:0.1.0": *
 ```
 
-同时还需要安装一些字体，包括 [Anthropic 系列](fonts/)和思源系列（[思源宋体](https://github.com/adobe-fonts/source-han-serif/releases/download/2.003R/09_SourceHanSerifSC.zip)、[思源黑体](https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R/09_SourceHanSansSC.zip)）。具体如下：
+本版本所需字体全部自托管于 [fonts/](fonts/)，均为完整版（未裁剪、未分片）。克隆后将 fonts/ 内字体装入系统，或编译时加 `--font-path fonts` 即可。具体如下：
 
 | 用途 | 字体链 |
 | --- | --- |
-| 正文、标题 | `Anthropic Serif Web Text` → `Source Han Serif SC` |
-| 页脚、面板标题 | `Anthropic Sans Web Text` → `Source Han Sans SC` |
-| 代码 | `Anthropic Mono` → `Source Han Serif SC` |
-| 公式 | `Libertinus Math` → `Source Han Serif SC` |
+| 正文、标题 | `Anthropic Serif Web Text` → `STKaiti`（华文楷体） |
+| 页脚、面板标题 | `Anthropic Sans Web Text` → `Clear Han Serif`（屏显臻宋） |
+| 代码 | `Anthropic Mono` → `Noto Sans Mono CJK SC` |
+| 公式 | `Libertinus Math` → `Clear Han Serif`（屏显臻宋） |
 
 ## 文稿写法
 
